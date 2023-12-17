@@ -1,0 +1,6 @@
+<!-- app/views/messages/_form.html.erb -->
+<%= form_with(model: @message, local: true) do |form| %>
+  <%= form.hidden_field :authenticity_token, value: form_authenticity_token %>
+  <!-- További űrlapelemek... -->
+  <%= form.submit "Submit" %>
+<% end %>

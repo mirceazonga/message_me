@@ -1,0 +1,14 @@
+
+
+.chatbox {
+    height: 450px; 
+}
+
+#messages {
+    height: 15em;
+    overflow: auto;
+  }
+  
+  .ui.reply.form .input button {
+    display: none;
+  }
